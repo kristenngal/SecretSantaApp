@@ -1,0 +1,36 @@
+.navbar {
+  background-color: darkblue;
+  overflow: hidden;
+  padding: 20px 50px;
+  text-align: center;
+}
+
+.navbar a {
+  text-align: center;
+  padding: 20px 15px;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar a:hover {
+  background-color: lightblue;
+  color: black;
+}
+
+.navbar a.active {
+    background-color: lightblue;
+    colour: black;
+  }
+
+h1 {
+  text-align: center;
+  color:lightblue;
+}
+
+header {
+  background-image: url(../img/snow.jpg);
+  background-size: cover;
+  padding-top: 90px;
+  padding-bottom: 500px;
+}
