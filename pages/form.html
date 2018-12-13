@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form Page</title>
+
+    <link href="../css/styles.css" rel="stylesheet" type="text/css">
+
+  </head>
+  <body>
+
+    <div class="navbar">
+      <a href="../index.html">Home</a>
+      <a href="profile.html">Profile</a>
+      <a href="instructions.html">Instructions</a>
+      <a href="signup.html">Sign Up</a>
+    </div>
+
+    <h1>Create your Secret Santa Group</h1>
+
+    <form action=results.html method=get>
+  <!-- "post" will submit without being able to see, "get" will direct somewhere -->
+
+      <table cellpadding=10>
+
+        <tr>
+          <td>Enter Number of People</td>
+          <td> <input type="text" name="number" id="number"></td>
+        </tr>
+
+        <tr>
+          <td>Enter Names</td>
+            </tr>
+
+        <tr>
+          <td> <input type="text" name="name1" id="name1"></td>
+          <td> <input type="text" name="name2" id="name2"></td>
+        </tr>
+
+        <tr>
+          <td> <input type="text" name="name3" id="name3"></td>
+          <td> <input type="text" name="name4" id="name4"></td>
+        </tr>
+
+        <tr>
+          <td> <input type="text" name="name5" id="name5"></td>
+          <td> <input type="text" name="name6" id="name6"></td>
+        </tr>
+
+        <tr>
+          <td> <input type="text" name="name7" id="name7"></td>
+          <td> <input type="text" name="name8" id="name8"></td>
+        </tr>
+
+        <tr>
+          <td>Target Spend</td>
+          <td><input name=spend type=checkbox checked id="spend"></td>
+        </tr>
+
+        <tr>
+          <td>Please Select your Target Spend Amount</td>
+          <td> <select name="Amount">
+                <option>$10.00</option>
+                <option>$15.00</option>
+                <option>$20.00</option>
+                <option>$25.00</option>
+                <option>$30.00</option>
+                <option>$35.00</option>
+                <option>$40.00</option>
+                <option>$45.00</option>
+                <option>$50.00</option>
+                <option>$55.00</option>
+                <option>$60.00</option>
+                <option>$65.00</option>
+                <option>No Target Spending Amount</option> </td>
+        </tr>
+
+        <tr>
+          <td>Extra Information for the Group</td>
+          <td> <textarea name=comments rows=5 cols=50></textarea></td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td> <input type="submit" value="record" name="submit" id="submit"></td>
+        </tr>
+
+      </table>
+
+      <input type=hidden name=company value="The Counting Company">
+    </form>
+
+
+
+
+  </body>
+</html>

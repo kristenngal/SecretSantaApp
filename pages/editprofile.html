@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form Page</title>
+
+    <link href="../css/styles.css" rel="stylesheet" type="text/css">
+
+  </head>
+  <body>
+
+    <div class="navbar">
+      <a href="../index.html">Home</a>
+      <a href="profile.html">Profile</a>
+      <a href="instructions.html">Instructions</a>
+      <a href="signup.html">Sign Up</a>
+    </div>
+
+    <h1>Create your Profile</h1>
+
+    <form action=profileresults.html method=get>
+  <!-- "post" will submit without being able to see, "get" will direct somewhere -->
+
+      <table cellpadding=10>
+
+        <tr>
+          <td>About Me</td>
+          <td> <textarea name=comments rows=5 cols=50></textarea></td>
+        </tr>
+
+        <tr>
+          <td>Gender</td>
+          <td> <select name="Gender">
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+                <option>Prefer not to say</option> </td>
+        </tr>
+
+        <tr>
+          <td>My Wish List</td>
+          <td> <textarea name=comments rows=5 cols=50></textarea></td>
+        </tr>
+
+        <tr>
+          <td></td>
+          <td> <input type="submit" value="record" name="submit" id="submit"></td>
+        </tr>
+
+      </table>
+
+      <input type=hidden name=company value="The Counting Company">
+    </form>
+
+
+
+
+  </body>
+</html>

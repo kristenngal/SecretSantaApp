@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Results</title>
+
+    <link href="../css/styles.css" rel="stylesheet" type="text/css">
+
+
+      <script type="text/javascript">
+        window.addEventListener("DOMContentLoaded",function(){
+          var data=location.search.split("?")[1].split("&")[0].split("=")[1]
+          document.getElementById("answer").innerHTML=data
+        });
+        //alert(data)
+      </script>
+
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="../index.html">Home</a>
+      <a href="profile.html">Profile</a>
+      <a href="instructions.html">Instructions</a>
+      <a href="signup.html">Sign Up</a>
+    </div>
+
+    <h1>Thank you for submitting your Secret Santa Group</h1>
+    <div id=answer></div>
+
+  </body>
+</html>
